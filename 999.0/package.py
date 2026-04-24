@@ -22,4 +22,5 @@ def commands():
     alias("lugwit_auth_init_db", "python {root}/src/lugwit_auth/init_db.py")
     alias("lugwit_auth_seed_users", "python {root}/src/lugwit_auth/seed_users.py")
     alias("lugwit_auth_migrate_chatroom_users", "python {root}/src/lugwit_auth/migrate_chatroom_users.py")
+    alias("lugwit_auth_rename_tables_to_users", "python {root}/src/lugwit_auth/rename_auth_tables_to_users.py")
 
